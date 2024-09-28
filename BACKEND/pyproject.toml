@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ticpic"
+version = "0.1.0"
+description = "Backend for ticpic app"
+authors = ["Arman Grewal <armancode4u@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.3"
+flask_sqlalchemy = "^3.1.1"
+flask_cors = "^3.0.10"
+flask_bcrypt = "^1.0.1"
+flask_mail = "^0.10.0"
+celery = "^5.4.0"
+flask_caching = "^2.3.0"
+
+# [tool.poetry.dev-dependencies]
+# pytest = "^6.2.4"
+loadenv = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
