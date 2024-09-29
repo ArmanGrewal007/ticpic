@@ -6,7 +6,7 @@ authors = ["Arman Grewal <armancode4u@gmail.com>"]
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 flask = "^3.0.3"
 flask_sqlalchemy = "^3.1.1"
 flask_cors = "^3.0.10"
@@ -18,6 +18,13 @@ flask_caching = "^2.3.0"
 # [tool.poetry.dev-dependencies]
 # pytest = "^6.2.4"
 loadenv = "^0.1.1"
+flask-rbac = "^0.5.0"
+jwt = "^1.3.1"
+configparser = "^7.1.0"
+flask-login = "^0.6.3"
+flask-security = "^5.5.2"
+flask-migrate = "^4.0.7"
+setuptools = "^75.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
