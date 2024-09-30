@@ -25,6 +25,7 @@ flask-login = "^0.6.3"
 flask-security = "^5.5.2"
 flask-migrate = "^4.0.7"
 setuptools = "^75.1.0"
+argon2-cffi = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
